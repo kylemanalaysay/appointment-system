@@ -1,0 +1,18 @@
+
+
+.service__item{
+    padding: 1rem;
+    border-bottom: 1px solid var(--secondary-color);
+    border-right: 1px solid var(--secondary-color);
+    border-radius: 0.5 rem;
+}
+
+.service__item h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.service__item p {
+    font-size: 0.9 rem;
+    color: var(--text-color);
+}
