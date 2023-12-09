@@ -111,7 +111,6 @@ const MyBookings = () => {
   useEffect(() => {
     if (bookingsData && userData) {
       const combinedAppointments = bookingsData.map(booking => {
-        const user = userData.find(user => user._id === booking.userId);
 
         return {
           key: booking._id, 
