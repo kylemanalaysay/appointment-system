@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'react-datepicker/dist/react-datepicker.css';
-import { DatePicker, TimePicker } from 'antd';
+import { DatePicker } from 'antd';
 
 const DateTimeSelection = ({ onSelectDateTime }) => {
   const [selectedDateTime, setSelectedDateTime] = useState(null);
