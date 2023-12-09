@@ -1,5 +1,4 @@
-import { useContext, useState } from 'react';
-import userImg from '../../assets/images/violet.png';
+import { useState } from 'react';
 import Loading from '../../components/Loader/Loading';
 import userGetProfile from '../../hooks/useFetch.js';
 import Profile from './Profile.jsx';
